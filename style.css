@@ -1,0 +1,200 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Text Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Text Sans';
+    src: url(src/Text\ Sans.ttf) format("truetype");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    background-color: lightblue;
+    height: 650px;
+    max-height: 650px;
+    width: 1200px;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.window-heading {
+    color: #BC48FF;
+    -webkit-text-stroke: 2px #BC48FF;
+    letter-spacing: 6px;
+    font-size: 20px;
+    text-shadow: 2px 2px 15px #BC48FF;
+    transition: 0.5s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0px 25px;
+    background-color: #181818;
+}
+
+.navbar-link-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.main {
+    display: flex;
+    background-color: black;
+    height: 600px;
+}
+
+.sidebar {
+    background-color: #0F0F0F;
+    height: 600px;
+    width: 200px;
+}
+
+.sidebar-content {
+    height: 540px;
+}
+
+.version-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+}
+
+.background {
+    height: 520px;
+    width: 1000px;
+}
+
+.bottom-bar {
+    display: flex;
+    background-color: #111111;
+    max-width: 1000px;
+    height: 80px;
+    padding: 0px 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Text Sans', sans-serif;
+    -webkit-text-stroke: 2px white;
+}
+
+h2 {
+    letter-spacing: 2.5px;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Text Sans', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+
+h3 {
+    letter-spacing: 2.5px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Text Sans', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+
+h4 {
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'Text Sans', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+
+
+h5 {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Text Sans', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+
+
+h6 {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Text Sans', sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+
+a {
+    font-family: 'Text Sans' sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    font-family: 'Text Sans' sans-serif;
+    color: #888;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+button {
+    display: flex;
+    border: none;
+    color: #0a0a0a;
+    font-size: 18px;
+    -webkit-text-stroke: 1px #0a0a0a;
+    letter-spacing: 2px;
+    background-color: #BC48FF;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 280px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+button:hover {
+    display: flex;
+    border: none;
+    color: white;
+    -webkit-text-stroke: 1px white;
+    background-color: #0a0a0a;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 280px;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.link {
+    font-family: 'Text Sans' sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link:hover {
+    font-family: 'Text Sans' sans-serif;
+    color: #BC48FF;
+    text-shadow: 2px 2px 15px #BC48FF;
+    transform: scale(1.25);
+    text-decoration: none;
+    transition: 0.5s;
+}

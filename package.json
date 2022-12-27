@@ -1,0 +1,24 @@
+{
+  "name": "neoncorelauncher",
+  "version": "1.0.0",
+  "description": "NeonCoreLauncher Launcher Electron Desktop Application",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahOnFyre/NeonCoreLauncher.git"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "NoahOnFyre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoahOnFyre/NeonCoreLauncher/issues"
+  },
+  "homepage": "https://github.com/NoahOnFyre/NeonCoreLauncher#readme",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^22.10.3",
+    "electron-winstaller": "^5.1.0"
+  }
+}
