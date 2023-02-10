@@ -1,0 +1,69 @@
+body:has(#version1:checked) #version1-item {
+    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
+    transition: 0.3s;
+}
+
+body:has(#version2:checked) #version2-item {
+    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
+    transition: 0.3s;
+}
+
+body:has(#version3:checked) #version3-item {
+    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
+    transition: 0.3s;
+}
+
+body:has(#version4:checked) #version4-item {
+    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
+    transition: 0.3s;
+}
+
+body:has(#version5:checked) #version5-item {
+    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
+    transition: 0.3s;
+}
+
+body:has(#version1:checked) #version1-title {
+    background: linear-gradient(90deg, #ff00dc, #006eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+}
+
+body:has(#version2:checked) #version2-title {
+    background: linear-gradient(90deg, #ff00dc, #006eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+}
+
+body:has(#version3:checked) #version3-title {
+    background: linear-gradient(90deg, #ff00dc, #006eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+}
+
+body:has(#version4:checked) #version4-title {
+    background: linear-gradient(90deg, #ff00dc, #006eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+}
+
+body:has(#version5:checked) #version5-title {
+    background: linear-gradient(90deg, #ff00dc, #006eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+}
