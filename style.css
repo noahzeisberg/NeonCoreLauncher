@@ -175,37 +175,9 @@ nav {
     border-radius: 16px;
 }
 
-body:has(#version1:checked) #version1-item {
-    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
-    transition: 0.3s;
-}
-
-body:has(#version2:checked) #version2-item {
-    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
-    transition: 0.3s;
-}
-
-body:has(#version3:checked) #version3-item {
-    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
-    transition: 0.3s;
-}
-
 .sidebar-item-version {
     font-size: 20px;
     letter-spacing: 5px;
-}
-
-#selected-version {
-    background: linear-gradient(90deg, #1E0F1E, #0F0F1E);
-}
-
-#selected-version-text {
-    background: linear-gradient(90deg, #ff00dc, #006eff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-    font-weight: 900;
 }
 
 .main-content-window {
