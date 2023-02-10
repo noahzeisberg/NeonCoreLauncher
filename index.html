@@ -1,47 +1,91 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEONCORE Client | Launcher</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,300,0,0" />
-    <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon">
+    <title>NeonCore Client | Launcher</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <nav>
-        <div class="logo-wrapper"><h3 class="window-heading">NEONCORE</h3></div>
-        <div class="navbar-link-wrapper">
-            <a class="link" href="">Accounts</a>
-            <a class="link" href="">Mods</a>
-            <a class="link" href="">Skins</a>
-            <a class="link" href="">Cosmetics</a>
-            <a class="link" href="">Settings</a>
+    <section id="loader" class="loader-sect">
+        <div style="display: flex; flex-direction: column; align-items: center; margin-top: 100px;">
+            <span class="loader"></span>
+            <h1 style="color: white; font-size: 24px; letter-spacing: 10px; margin-top: 150px;">Loading NeonCore</h1>
         </div>
-    </nav>
+    </section>
 
-    <div class="main">
-        <div class="sidebar">
-            <div class="sidebar-content">
-
+    <section id="main" class="main">
+        <nav>
+            <div class="nav-logo">
+                <img class="nav-logo-img" src="src/favicon.png" alt="">
+                <h1 style="font-family: 'DM Sans Bold';" class="nav-logo-title">NEONCORE</h1>
             </div>
-
-            <div class="version-switcher">
-                <a href="">
-                    <span style="font-size: 18px; display: flex; align-items: center; gap: 5px;">Select version<span class="material-symbols-rounded">expand_more</span></span>
-                </a>
+            <div class="nav-link-wrapper">
+                <span id="homeButton" class="nav-link" href="">Home</span>
+                <span id="modButton" class="nav-link" href="">Mods</span>
+                <span id="skinsButton" class="nav-link" href="">Skins</span>
+                <span id="accountButton" class="nav-link" href="">Accounts</span>
+                <span id="exitButton" class="nav-link" href=""><img class="nav-icon" src="src/close.png" alt=""></span>
             </div>
-        </div>
+        </nav>
     
-        <div class="main-content">
-            <div class="background"></div>
-            <div class="bottom-bar">
-                <span style="font-size: 12px; color: #666;"></span>
-                <button id="launchButton">Launch</button>
+        <div class="content">
+            <form class="sidebar">
+                <input class="version-radio" type="radio" name="version" id="version1">
+                <label for="version1">
+                    <div class="sidebar-item" id="version1-item">
+                        <h1 class="sidebar-item-version">Versionsname</h1>
+                    </div>
+                </label>
+
+                <input class="version-radio" type="radio" name="version" id="version2">
+                <label for="version2">
+                    <div class="sidebar-item" id="version2-item">
+                        <h1 class="sidebar-item-version">Versionsname</h1>
+                    </div>
+                </label>
+
+                <input class="version-radio" type="radio" name="version" id="version3">
+                <label for="version3">
+                    <div class="sidebar-item" id="version3-item">
+                        <h1 class="sidebar-item-version">Versionsname</h1>
+                    </div>
+                </label>
+            </form>
+        
+            <div class="main-content-window">
+                
             </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+        
+        <footer>
+            <select class="version-selector" name="versionSelector" id="versionSelector">
+                <option>
+                    <span>Forge 1.8.9</span>
+                </option>
+    
+                <option>
+                    <span>Forge 1.12.2</span>
+                </option>
+    
+                <option>
+                    <span>Fabric 1.16.5</span>
+                </option>
+                
+                <option>
+                    <span>Fabric 1.17.1</span>
+                </option>
+                
+                <option>
+                    <span>Fabric 1.19.3</span>
+                </option>
+            </select>
+            <button class="button">Launch</button>
+        </footer>
+    </section>
 </body>
 </html>

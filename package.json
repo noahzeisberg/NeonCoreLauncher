@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/NoahOnFyre/NeonCoreLauncher#readme",
   "devDependencies": {
-    "electron": "^22.0.0",
+    "electron": "^22.0.3",
     "electron-builder": "^22.10.3",
-    "electron-winstaller": "^5.1.0"
+    "electron-winstaller": "^5.1.0",
+    "webpack": "^5.75.0"
   }
 }
